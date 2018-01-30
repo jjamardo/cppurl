@@ -1,5 +1,5 @@
 # cppurl
-Small wrapper for the curl library for C++
+Small C++ wrapper for the curl library
 
 ```c++
 Cppurl cppurl;
