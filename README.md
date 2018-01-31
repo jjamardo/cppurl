@@ -1,6 +1,8 @@
 # cppurl
 Small C++ wrapper for the curl library
 
+## Use
+
 ```c++
 Cppurl cppurl;
 
@@ -34,3 +36,9 @@ string response;
 int http = cppurl.get(url, response);
 
 ```
+
+## Compilation
+
+Include the "cppurl.hpp" header, and link with:
+
+-lcurl
